@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
+
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+
+	<!--<New id="jdbc-personalisation" class="org.eclipse.jetty.plus.jndi.Resource">-->
+		<!--<Arg>jdbc/personalisation</Arg>-->
+		<!--<Arg>-->
+			<!--<New class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+				<!--<Set name="DriverClass">com.ibm.db2.jcc.DB2Driver</Set>-->
+                <!--<Set name="JdbcUrl">jdbc:db2://<SystemProperty name="personalisation.db.host" default="ldb00" />:<SystemProperty name="personalisation.db.port" default="50000" />/<SystemProperty name="personalisation.db.instance" default="HY"/></Set>-->
+                <!--<Set name="User"><SystemProperty name="personalisation.db.user" default="PERSONAL"/></Set>-->
+                <!--<Set name="Password"><SystemProperty name="personalisation.db.password" default="Password1"/></Set>-->
+				<!--<Set name="AcquireIncrement">3</Set>-->
+				<!--<Set name="InitialPoolSize">3</Set>-->
+				<!--<Set name="MinPoolSize">3</Set>-->
+				<!--<Set name="MaxPoolSize">1000</Set>-->
+				<!--<Set name="MaxIdleTime">0</Set>-->
+				<!--<Set name="IdleConnectionTestPeriod">0</Set>-->
+				<!--<Set name="MaxStatements">0</Set>-->
+				<!--<Set name="AcquireRetryDelay">1000</Set>-->
+				<!--<Set name="CheckoutTimeout">0</Set>-->
+				<!--<Set name="AcquireRetryAttempts">30</Set>-->
+			<!--</New>-->
+		<!--</Arg>-->
+	<!--</New>-->
+
+</Configure>
